@@ -1,5 +1,10 @@
-class Artist 
+#artist has many songs
+#song belong to an artist
+#artist has maby genre throught song
 
+
+
+class Artist
    attr_accessor :name
   @@all = []
 
